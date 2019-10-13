@@ -1,0 +1,15 @@
+
+//Step 1	Go to http://newtours.demoaut.com
+
+//Assert page title : Welcome: Mercury Tours
+//Verify User Name and Password fields and Sign-in button exist
+
+//Step 2	Enter asquared in user name field
+
+//Step 3	Enter asquared in password field
+
+//Step 4	Click on Sign-in
+
+//Assert page title is Find a Flight: Mercury Tours:
+
+//Step 5 Click on SIGN-OFF

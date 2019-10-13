@@ -1,0 +1,13 @@
+// Go to http://newtours.demoaut.com/
+
+// Verify page title is "Welcome: Mercury Tours"
+
+// Verify Home link exist
+
+// Verify Flights link exist
+
+// Verify Hotels link exist
+
+//Verify Cars link exist
+
+// Verify Cruises link exist

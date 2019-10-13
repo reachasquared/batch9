@@ -1,0 +1,30 @@
+
+//Step 1	Go to http://newtours.demoaut.com
+
+//Assert page title : Welcome: Mercury Tours
+
+//Assert below data is displayed under Specials section
+// Atlanta to Las Vegas	$398
+// Boston to San Fransisco	$513
+// Los Angeles to Chicago $168
+// New York to Chicago	$198
+// Phoenix to San Fransisco	 $213
+
+// Click on Sign-On link
+
+//Assert text is displayed: Welcome back to Mercury Tours! Enter your user information to access the member-only areas of this site. If you don't have a log-in, please fill out the registration form.
+
+//Verify User Name and Password fields and Submit button exist
+
+//Step 2	Enter asquared in user name field
+
+//Step 3	Enter asquared in password field
+
+//Step 4	Click on Submit
+
+//Assert page title is Find a Flight: Mercury Tours:
+
+//Step 5 Click on SIGN-OFF
+
+
+

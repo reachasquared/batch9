@@ -1,0 +1,25 @@
+    // Go to newtours website
+
+    //verify page title is "Welcome: Mercury Tours"
+
+    //Verify REGISTER link is present
+
+    //Click on REGISTER link
+
+    //Enter asquared in First Name
+
+    //Enter asquared in Last Name
+
+    //Enter 9049049044 in Phone
+
+    //Select UNITED KINGDOM from Country
+
+    //Click Submit
+
+    //Verify "Dear asquare asquared," text is displayed
+
+    //verify Sign-off link exists
+
+    // Verify REGISTER image is displayed
+
+    //click SIGN-OFF
