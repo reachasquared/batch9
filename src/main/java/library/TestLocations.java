@@ -11,4 +11,11 @@ public class TestLocations {
     public void stJohnsLocation() {//method iSeeStJohns begins
         System.out.print("In Prachee Arts, St Johns Location, I see ");
     }// iSeeStJohns method ends
+
+    /**
+     * op= Orange Park
+     */
+    public void opLocation() {//method opLocation begins
+        System.out.print("In Prachee Arts, Orange Park Location, I see ");
+    }//method ends opLocation
 }
