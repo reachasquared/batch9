@@ -1,5 +1,6 @@
 package asquared;
 
+import library.TestLocations;
 import org.junit.Test;
 
 public class Test_InstantiatingClass {
@@ -10,6 +11,7 @@ public class Test_InstantiatingClass {
     public void instantiatingClass() {
         //Instantiating a class
         //CLASS NAME <variable> = new CLASS NAME();
+        //TestLocations locations = new TestLocations();
         TestLocations locations = new TestLocations();
 
         //Calling method using class object
@@ -24,5 +26,8 @@ public class Test_InstantiatingClass {
 
         locations.stJohnsLocation();
         System.out.println("Storage supplies");
+
+        locations.opLocation();
+        System.out.println("easel board");
     }
 }
