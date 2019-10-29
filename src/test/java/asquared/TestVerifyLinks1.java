@@ -22,6 +22,8 @@ public class TestVerifyLinks1 extends global {//class begins
 
         assertTrue(driver.findElement(By.linkText("Home")).isDisplayed());
 
+        assertTrue(driver.findElement(By.cssSelector("a[href^=\"mercurywelcome.php\"]")).isDisplayed());
+        assertTrue(driver.findElement(By.cssSelector("img[src^=\"/images/nav/logo.gif\"]")).isDisplayed());
 
         // Verify Flights link exist
 
