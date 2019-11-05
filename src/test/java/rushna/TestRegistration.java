@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 public class TestRegistration extends global { //class begins
@@ -41,21 +42,23 @@ public class TestRegistration extends global { //class begins
         driver.findElement(By.xpath("//input[@name='phone']")).sendKeys("<input maxlength=\"20\" name=\"phone\" size=\"15\" xpath=\"1\">");
 
             //Select UNITED KINGDOM from Country
-        logger.info("Select UNITED KINGDOM from Country"); //help
-        Select drpCountry = new Select(driver.findElement(By.name("//select[@name='country']"))); drpCountry.selectByVisibleText("UNITED KINGDOM");
+        logger.info("Select UNITED KINGDOM from Country");
+        new Select(driver.findElement(By.xpath("//select[@name='country']"))).selectByVisibleText("UNITED KINGDOM");
 
             //Click Submit
         logger.info("Click Submit");
-        driver.findElement(By.id("Submit"));
+        driver.findElement(By.xpath("//input[@name='register']")).click();
 
             //Verify "Dear asquare asquared," text is displayed
         logger.info("Verify \"Dear asquare asquared,\" text is displayed"); //help
+        assertTrue(driver.findElement(By.xpath("//img[@src='/images/masts/mast_register.gif']")).isDisplayed());
 
             //verify Sign-off link exists
         logger.info("verify Sign-off link exists"); //help
 
             // Verify REGISTER image is displayed
         logger.info("Verify REGISTER image is displayed"); //help
+        //img[ contains(@src,"/images/masts/mast_register.gif")]
 
             //click SIGN-OFF
         logger.info("click SIGN-OFF");
