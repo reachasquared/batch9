@@ -12,12 +12,15 @@ public class TestVerifyLinks1 extends global {//class begins
     @Test
     public void verifyLinks() {//method verifyLinks begins
         // Go to http://newtours.demoaut.com/
+        logger.info("Step1: Go to http://newtours.demoaut.com/");
         driver.get(baseUrl);
 
         // Verify page title is "Welcome: Mercury Tours"
+        logger.info("Step 2: Verify page title is \"Welcome: Mercury Tours\"");
         assertEquals("Welcome: Mercury Tours", driver.getTitle());
 
         // Verify Home link exist
+        logger.info("Step 3:Verify Home link exist");
         assertEquals(true, driver.findElement(By.linkText("Home")).isDisplayed());
 
         assertTrue(driver.findElement(By.linkText("Home")).isDisplayed());

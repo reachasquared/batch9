@@ -21,6 +21,7 @@ public class TestCssSelector extends global {
         logger.info("Step 3:Verify Home link exist");
         assertTrue(driver.findElement(By.cssSelector("a[href^=\"mercurywelcome.php\"]")).isDisplayed());
 
+
         // Verify Logo exist
         logger.info("Step 4:Verify Logo image exist");
         assertTrue(driver.findElement(By.cssSelector("img[src^=\"/images/nav/logo.gif\"]")).isDisplayed());
