@@ -1,0 +1,13 @@
+        /*
+         * Also in chropath test the below xpaths to understand it more
+         *  1. //b[contains(text(),'Address:')]
+         *  2. //b[contains(text(),'Address:')]/following::input
+         *  3. //b[contains(text(),'Address:')]/following::input[1]
+         *
+         *  working with parent, preceding-sibling
+         *
+         *  4. //input[@name='confirmPassword']
+         *  5. //input[@name='confirmPassword']/parent::td
+         *  6. //input[@name='confirmPassword']/parent::td/preceding-sibling::td
+         *  7. //input[@name='confirmPassword']/parent::td/preceding-sibling::td/font/b
+         * */
